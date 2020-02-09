@@ -1,0 +1,25 @@
+.layout {
+  background-image: url("https://images.unsplash.com/photo-1555406952-814eb7de8cde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  //Photo by Chiara Daneluzzi on Unsplash
+  height: 100vh;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .layout-box {
+    background: fade-out(#fff, 0.15);
+    border-radius: 5px;
+    padding: $l-size $m-size;
+    text-align: center;
+    min-width: 25rem;
+
+    .layout-box__title {
+      margin: 0 0 $l-size 0;
+      line-height: 1;
+    }
+  }
+}

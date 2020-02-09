@@ -1,0 +1,35 @@
+.header {
+  background-color: $weird-blue;
+  font-size: 0.8rem;
+  @media (min-width: 770px) {
+    font-size: $m-size;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+
+    .header__title {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .logout-btn {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      font-size: $s-size;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.2s linear;
+      &:hover {
+        color: #ccc;
+      }
+
+      @media (min-width: 770px) {
+        font-size: $m-size;
+      }
+    }
+  }
+}

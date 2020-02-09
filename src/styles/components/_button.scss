@@ -1,0 +1,30 @@
+.button {
+  background-color: $weird-blue;
+  width: 18rem;
+  border: none;
+  color: #fff;
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken(#007791, 5%);
+  }
+  @media (min-width: 770px) {
+    font-size: 1.4rem;
+  }
+}
+
+.remove {
+  @extend .button;
+  background-color: #e80d09;
+
+  &:hover {
+    background-color: darken(#e80d09, 10%);
+  }
+}

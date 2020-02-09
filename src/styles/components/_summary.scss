@@ -1,0 +1,13 @@
+.summary {
+  background-color: $grey;
+  margin-bottom: $l-size;
+  padding: $l-size 0;
+  .summary-title {
+    font-size: $m-size;
+    margin: 0 0 $l-size 0;
+
+    @media (min-width: 770px) {
+      font-size: 2rem;
+    }
+  }
+}

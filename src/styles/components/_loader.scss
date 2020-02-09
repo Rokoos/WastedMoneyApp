@@ -1,0 +1,15 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .loader-image {
+    width: 4rem;
+    height: 4rem;
+    @media (min-width: 770px) {
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+}
